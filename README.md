@@ -1,16 +1,42 @@
-# cocoexplorer_mobile
+# COCO Explorer (Flutter)
 
-A new Flutter project.
+A mobile client built with Flutter to explore the [COCO Dataset](https://cocodataset.org/#home) using public web APIs extracted from browser developer tools.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Browse and search categories from the COCO dataset.
+- View images and their segmentation masks using API data.
+- Clean and responsive UI powered by Flutter.
+- Integration with live COCO dataset web APIs.
 
-A few resources to get you started if this is your first Flutter project:
+## 🧪 Tested Platforms
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app has been tested on:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✅ Android
+- Multiple Android emulators (API 30+)
+- Physical Android device
+
+### ✅ iOS
+- iOS Simulator (iPhone 16 plus)
+- Physical iPhone 15
+
+## 📦 Tech Stack
+
+- **Flutter**: Mobile UI framework
+- **Dart**: Programming language
+- **REST API**: Integration with COCO web APIs via HTTP
+- **BLoC**: State management 
+
+## 🔧 Getting Started
+
+### Prerequisites
+- Flutter SDK
+- Android Studio / Xcode
+- Connected Android or iOS device
+
+### Installation
+Clone the repo:
+```bash
+git clone https://github.com/YusifAghasalamli/coco_explorer_mobile.git
+cd coco_explorer_mobile
