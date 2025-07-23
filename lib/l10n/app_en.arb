@@ -1,0 +1,15 @@
+{
+    "@@locale": "en",
+    "searchHint": "Tip: Use ';' to convert text into tags",
+    "@searchHint": {
+        "description": "Hint text "
+    },
+    "defaultError": "An error occurred. Please try again later.",
+    "@defaultError": {
+        "description": "Default error text"
+    },
+    "nothingFound": "No results found. Try a different tag or keyword.",
+    "@nothingFound": {
+        "description": "Hint text"
+    }
+}
